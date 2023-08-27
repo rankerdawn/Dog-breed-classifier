@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: No, the alexnet model identified the breed correctly as a pitbull terrier while the other two models couldn't identify the correct breed.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: all three models identified the two dog pictures to be the same breed.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: the resnet and vgg model couldn't differentiate that the pictures where not of dogs, so they gave a match while alexnet model only has a match for the Animal_Name and not the Object_Name.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: all three models have failed to identify the dog pictures but atleast the alexnet model has minimized the error of matching none dogs pictures so in my opinion the alexnet model is a good choice for uploaded images
